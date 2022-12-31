@@ -1,0 +1,16 @@
+*{
+	padding: 0;
+	margin: 0;
+
+}
+
+body{
+	background: #d42525ab;
+}
+
+#contact-container {
+    background: brown;
+    color: white;
+    margin: 10vh auto;
+    padding: 7vh 15vw;
+}
