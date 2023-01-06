@@ -5,18 +5,16 @@ class Paragragh_maker{
 
   changeParagragh(button,text){
 document.getElementById(button).addEventListener("mouseover", ()=>{
-  document.getElementById(text).style.opacity = '1';
-  window.setTimeout(()=>{
+setTimeout(() => {
   	document.getElementById("hover-info").style.display = "none";
   	document.getElementById(text).style.display = "block";
-  },300);
+},700);
 });
 document.getElementById(button).addEventListener("mouseout", ()=>{
-  document.getElementById(text).style.opacity = '0';
-    window.setTimeout(()=>{
+setTimeout(() => {
     	document.getElementById(text).style.display = "none";
     	document.getElementById("hover-info").style.display = "block";
-    },300);
+},700);
 });
 }
 }
