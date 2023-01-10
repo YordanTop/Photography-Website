@@ -1,0 +1,32 @@
+*{
+	padding: 0;
+	margin: 0;
+
+}
+
+body{
+	background: #d42525ab;
+}
+
+#contact-container {
+    background: brown;
+    color: white;
+    margin: 7vh auto;
+    padding: 7vh 15vw;
+}
+
+#personal-info{
+    display: grid;
+    grid-template-columns: 48% 48%;
+    margin: 15px 0;
+    grid-column-gap: 3vw;
+}
+
+#err{
+    text-align: center;
+    margin: 3vh auto;
+    background: white;
+    box-shadow: 0 0 15px 1px;
+    font-size: 2rem;
+    padding: 4vh 0;
+}
